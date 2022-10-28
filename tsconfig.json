@@ -1,0 +1,28 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./cypress",
+        "strict": true,
+        "target":"ES2022",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "paths": {
+            "@support/*": [
+                "support/*"
+            ],
+            "@BE/*": [
+                "back-end/*"
+            ],
+            "@fixtures/*": [
+                "fixtures/*"
+            ]
+        }
+    }
+}

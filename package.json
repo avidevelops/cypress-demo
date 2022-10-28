@@ -1,0 +1,22 @@
+{
+  "name": "cypressdemo",
+  "version": "1.0.0",
+  "description": "Cypress framework for UI and API",
+  "scripts": {
+    "cy": "cypress open"
+  },
+  "author": "AV",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "cypress": "^10.11.0",
+    "eslint": "^8.26.0",
+    "typescript": "^4.8.4",
+    "prettier": "^2.7.1",
+    "@faker-js/faker": "6.1.2",
+    "@types/faker": "5.5.9"
+  }
+}
