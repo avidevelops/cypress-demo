@@ -1,4 +1,4 @@
-import { ISBNListRequest, ISBNRequest } from "../models/book-list";
+import { ISBNListRequest, ISBNRequest } from "@BE/BOOKS/models/book-list";
 
 export const BOOKS_ISBN_LIST_ITEM: ISBNListRequest = {
     userId: `${Cypress.env('userID')}`,

@@ -1,5 +1,5 @@
-import { BookRequest } from "backend/BOOKS/requests";
-import { BOOKS_ISBN_ITEM, BOOKS_ISBN_LIST_ITEM, WRONG_BOOKS_ISBN_ITEM, WRONG_BOOKS_ISBN_LIST_ITEM } from "backend/BOOKS/requests/books-data";
+import { BookRequest } from "@BE/BOOKS/requests";
+import { BOOKS_ISBN_ITEM, BOOKS_ISBN_LIST_ITEM, WRONG_BOOKS_ISBN_ITEM, WRONG_BOOKS_ISBN_LIST_ITEM } from "@BE/BOOKS/requests/books-data";
 
 const apiAddBook = `${Cypress.config("baseUrl")}/BookStore/v1/Books`;
 const apiDeleteBook = `${Cypress.config("baseUrl")}/BookStore/v1/Book`;
