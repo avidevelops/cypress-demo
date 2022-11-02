@@ -1,5 +1,5 @@
 import { RequestBuilder } from "@support/helpers/request-builder";
-import { ISBNListRequest, ISBNRequest } from "./models/book-list";
+import { ISBNListRequest, ISBNRequest } from "@BE/BOOKS/models/book-list";
 
 export class BookRequest {
     private readonly url = `${Cypress.config("baseUrl")}/BookStore/v1/`;
